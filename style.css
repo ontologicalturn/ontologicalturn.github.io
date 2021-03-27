@@ -1,0 +1,86 @@
+body {
+  color: #2e2e2e;
+  font-family: times new roman;
+  font-size: 41px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #03023B;
+  color: whitesmoke;
+  position: relative;
+  /*                margin-top: 10vh;*/
+  height: 100vh;
+  padding-top: 14vh;
+  box-sizing: border-box;
+}
+
+.container p {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  padding: 5px;
+  line-height: 1.6;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  width: 73cr;
+  /*                top: 20vh;*/
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #FFD700;
+  font-style: italic;
+  font-family: 'Fira Sans Condensed', times new roman;
+  margin-right: 20px;
+}
+
+button {
+  height: 60px;
+  justify-content: right;
+  outline: none;
+  font-famiy: times new roman;
+  position: center-left;
+  padding: 10px;
+  width: 120px;
+  left: 100vh;
+  border: none;
+  background-color: #03023B;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+  transition: 500ms ease-in;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+button i {
+  margin-left: 3px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #03023B;
+}
+
+.container:first-child {
+  height: 30vh !important;
+}
+
+@media screen and (max-width: 565px) {
+  .container p {
+    font-size: 17px;
+  }
+  div:first-child {
+    height: 2vh;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  body {
+    text-align: center;
+  }
+}
